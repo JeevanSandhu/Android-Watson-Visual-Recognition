@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
             public String backGroundCallback() {
                 try {
                     VisualRecognition service = new VisualRecognition(VisualRecognition.VERSION_DATE_2016_05_20);
-                    service.setApiKey("4daf0ac6eec8b07e0ccc1d9c1887b3607c5bc52e");
+                    service.setApiKey("");
 
                     ClassifyImagesOptions options = new ClassifyImagesOptions.Builder()
                             .images(new File(fileName))
@@ -169,7 +169,7 @@ public class MainActivity extends AppCompatActivity {
             public String backGroundCallback() {
                 try {
                     VisualRecognition service = new VisualRecognition(VisualRecognition.VERSION_DATE_2016_05_20);
-                    service.setApiKey("4daf0ac6eec8b07e0ccc1d9c1887b3607c5bc52e");
+                    service.setApiKey("");
 
                     VisualRecognitionOptions options = new VisualRecognitionOptions.Builder()
                             .images(new File(fileName))
@@ -228,7 +228,7 @@ public class MainActivity extends AppCompatActivity {
             public String backGroundCallback() {
                 try {
                     VisualRecognition service = new VisualRecognition(VisualRecognition.VERSION_DATE_2016_05_20);
-                    service.setApiKey("4daf0ac6eec8b07e0ccc1d9c1887b3607c5bc52e");
+                    service.setApiKey("");
 
                     VisualRecognitionOptions options = new VisualRecognitionOptions.Builder()
                             .images(new File(fileName))
@@ -261,7 +261,7 @@ public class MainActivity extends AppCompatActivity {
             public String backGroundCallback() {
                 try {
                     VisualRecognition service = new VisualRecognition(VisualRecognition.VERSION_DATE_2016_05_20);
-                    service.setApiKey("4daf0ac6eec8b07e0ccc1d9c1887b3607c5bc52e");
+                    service.setApiKey("");
 
                     /*VisualRecognitionOptions options = new VisualRecognitionOptions.Builder()
                             .images(new File(fileName))
